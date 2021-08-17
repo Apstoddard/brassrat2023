@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166882874-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-166882874-1');
+        </script>
+
+        <title>Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+        
+        <!-- Style -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+        <link href="resources/hamburgers.css" rel="stylesheet">
+        <link rel="stylesheet" href="resources/style.css">
+        <link rel="stylesheet" href="resources/gallery/gallery.css">
+
+        <!-- Scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="resources/script.js"></script>
+        <script src="resources/gallery/gallery.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="website_page">
+                <div class="header_link">Gallery</div>
+            </div>
+            <div id="header_container">
+                <div class="header_item header_item_not_selected header_left"  onclick="location.href='index.html'">
+                    <img src="images/logo_gold.png" id="header_logo">
+                </div>
+                <div class="header_item header_item_not_selected" onclick="location.href='design.html'">
+                    <div class="header_link">Design</div>
+                </div>
+                <div class="header_item header_item_selected" onclick="location.href='gallery.html'">
+                    <div class="header_link">Gallery</div>
+                </div>
+                <div class="header_item header_item_not_selected"  onclick="location.href='https://hjgradwalk.com/mit/'">
+                    <div class="header_link">Order</div>
+                </div>
+                <div class="header_item header_item_right" style="margin-right: 48px;" onclick="location.href='https://www.youtube.com/channel/UCq6t26YiPioXx1MmBG_TYpQ'">
+                    <img src="images/youtube.png" class="header_icon">
+                </div>
+                <div class="header_item header_item_right" onclick="location.href='https://www.facebook.com/BrassRat2023/'">
+                    <img src="images/facebook.png" class="header_icon">
+                </div>
+                <div class="header_item header_item_right" onclick="location.href='https://www.instagram.com/brass_rat_2023/'">
+                    <img src="images/instagram.png" class="header_icon">
+                </div>
+            </div>
+            <div class="hamburger hamburger--squeeze" id="menu_button">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </div>
+        <div id="sub_header">
+            <div id="sub_header_container">
+                <div class="sub_header_item" id="yellow_button">
+                    <div class="sub_header_link">Yellow Gold</div>
+                </div>
+                <div class="sub_header_item" id="white_button">
+                    <div class="sub_header_link">White Gold</div>
+                </div>
+                <div class="sub_header_item" id="rose_button">
+                    <div class="sub_header_link">Rose Gold</div>
+                </div>
+                <div class="sub_header_item" id="silver_button">
+                    <div class="sub_header_link">Extreme Silver</div>
+                </div>
+                <div class="sub_header_item" id="ultrium_button">
+                    <div class="sub_header_link">Ultrium</div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="section" id="yellow_gold_section">
+                <div class="container_title">Yellow Gold</div>
+                <div class="container_l">
+                    <img data-src="images/gallery/yellow_gold_18k_natural.png" class="gallery_image lazy">
+                    <div class="gallery_text">18k Yellow Gold, Natural Finish</div>
+                </div>
+                <div class="container_r">
+                    <img data-src="images/gallery/yellow_gold_14k_natural.png" class="gallery_image lazy">
+                    <div class="gallery_text">14k Yellow Gold, Natural Finish</div>
+                </div>
+                <div class="container_c">
+                    <img data-src="images/gallery/yellow_gold_10k_dark.png" class="gallery_image lazy">
+                    <div class="gallery_text">10k Yellow Gold, Antiqued Finish</div>
+                </div>
+            </div>
+
+            <div class="section" id="white_gold_section">
+                <div class="container_title">White Gold</div>
+                <div class="container_l">
+                    <img data-src="images/gallery/white_gold_18k_natural.png" class="gallery_image lazy">
+                    <div class="gallery_text">18k White Gold, Natural Finish</div>
+                </div>
+                <div class="container_r">
+                    <img data-src="images/gallery/white_gold_14k_dark.png" class="gallery_image lazy">
+                    <div class="gallery_text">14k White Gold, Antiqued Finish</div>
+                </div>
+                <div class="container_c">
+                    <img data-src="images/gallery/white_gold_10k_natural.png" class="gallery_image lazy">
+                    <div class="gallery_text">10k White Gold, Natural Finish</div>
+                </div>
+            </div>
+                        
+            <div class="section" id="rose_gold_section">
+                <div class="container_title">Rose Gold</div>
+                <div class="container_l">
+                    <img data-src="images/gallery/rose_gold_14k_dark.png" class="gallery_image lazy">
+                    <div class="gallery_text">14k Rose Gold, Antiqued Finish</div>
+                </div>
+                <div class="container_r">
+                    <img data-src="images/gallery/rose_gold_10k_natural.png" class="gallery_image lazy">
+                    <div class="gallery_text">10k Rose Gold, Natural Finish</div>
+                </div>
+            </div>
+
+            <div class="section" id="silver_section">
+                <div class="container_title">Extreme Silver</div>
+                <div class="container_l">
+                    <img data-src="images/gallery/silver_dark.png" class="gallery_image lazy">
+                    <div class="gallery_text">Extreme Silver, Antiqued Finish</div>
+                </div>
+                <div class="container_r">
+                    <img data-src="images/gallery/silver_natural.png" class="gallery_image lazy">
+                    <div class="gallery_text">Extreme Silver, Natural Finish</div>
+                </div>
+            </div>
+
+            <div class="section" id="ultrium_section">
+                <div class="container_title">Ultrium</div>
+                <div class="container_l">
+                    <img data-src="images/gallery/ultrium.png" class="gallery_image lazy">
+                    <div class="gallery_text">Ultrium, Antiqued Finish</div>
+                </div>
+                <div class="container_r">
+                    <img data-src="images/gallery/stealth_ultrium.png" class="gallery_image lazy">
+                    <div class="gallery_text">Ultrium, Stealth PVD Finish</div>
+                </div>
+                <div class="container_l">
+                    <img data-src="images/gallery/brass_ultrium.png" class="gallery_image lazy">
+                    <div class="gallery_text">Ultrium, Brass PVD Finish</div>
+                </div>
+                <div class="container_r">
+                    <img data-src="images/gallery/prism_ultrium.png" class="gallery_image lazy">
+                    <div class="gallery_text">Ultrium, Prism PVD Finish</div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer_item">
+                <div class="footer_text">RingComm 2023</div>
+            </div>
+            <div class="footer_item_right" onclick="location.href='https://www.youtube.com/channel/UCq6t26YiPioXx1MmBG_TYpQ'">
+                <img src="images/youtube.png" class="footer_icon">
+            </div>
+            <div class="footer_item_right" onclick="location.href='https://www.facebook.com/BrassRat2023/'">
+                <img src="images/facebook.png" class="footer_icon">
+            </div>
+            <div class="footer_item_right" onclick="location.href='https://www.instagram.com/brass_rat_2023/'">
+                <img src="images/instagram.png" class="footer_icon">
+            </div>
+            <div class="footer_item_right">
+                <div class="footer_link" onclick="location.href='https://accessibility.mit.edu'">Accessibility</div>
+            </div>
+        </div>
+    </body>
+</html>

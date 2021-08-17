@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166882874-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-166882874-1');
+    </script>
+
+    <title>Brass Rat 2023</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+    <!-- Style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+    <link href="resources/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/style.css">
+    <link rel="stylesheet" href="resources/index/index.css">
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="resources/script.js"></script>
+    <script src="resources/index/index.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="website_page">
+            <img src="images/logo_gold.png" id="website_logo_image">
+        </div>
+        <div id="header_container">
+            <div class="header_item header_item_selected header_left" onclick="location.href='index.html'">
+                <img src="images/logo_gold.png" id="header_logo">
+            </div>
+            <div class="header_item header_item_not_selected" onclick="location.href='design.html'">
+                <div class="header_link">Design</div>
+            </div>
+            <div class="header_item header_item_not_selected" onclick="location.href='gallery.html'">
+                <div class="header_link">Gallery</div>
+            </div>
+            <div class="header_item header_item_not_selected" onclick="location.href='https://hjgradwalk.com/mit/'">
+                <div class="header_link">Order</div>
+            </div>
+            <div class="header_item header_item_right" style="margin-right: 48px;"
+                onclick="location.href='https://www.youtube.com/channel/UCq6t26YiPioXx1MmBG_TYpQ'">
+                <img src="images/youtube.png" class="header_icon">
+            </div>
+            <div class="header_item header_item_right" onclick="location.href='https://www.facebook.com/BrassRat2023/'">
+                <img src="images/facebook.png" class="header_icon">
+            </div>
+            <div class="header_item header_item_right"
+                onclick="location.href='https://www.instagram.com/brass_rat_2023/'">
+                <img src="images/instagram.png" class="header_icon">
+            </div>
+        </div>
+        <div class="hamburger hamburger--squeeze" id="menu_button">
+            <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+    </div>
+    <div id="sub_header">
+        <div id="sub_header_container">
+            <div class="sub_header_item" id="team_button">
+                <div class="sub_header_link">Team</div>
+            </div>
+            <div class="sub_header_item" id="events_button">
+                <div class="sub_header_link">Events</div>
+            </div>
+            <div class="sub_header_item" id="pricing_button">
+                <div class="sub_header_link">Pricing</div>
+            </div>
+            <div class="sub_header_item" id="faq_button">
+                <div class="sub_header_link">FAQ</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="announcement_banner" onclick="location.href='delivery.html'">Ring Delivery 10.10.21 &rarr;</div>
+        <div id="main_image"></div>
+        <!--<video autoplay muted loop id="main_video">
+                <source src="video/bezel_flyover.mp4" type="video/mp4">
+            </video>-->
+        <div class="section" id="team_section">
+            <div class="container_title">Team</div>
+            <div class="container_l">
+                <img data-src="images/team/ananya.jpeg" class="person_photo lazy" />
+                <div class="person_text person_name">Ananya Gurumurthy</div>
+                <div class="person_text">Chair</div>
+                <div class="person_text">Maseeh 4</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/team/matt.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Matt Jens</div>
+                <div class="person_text">Vice Chair</div>
+                <div class="person_text">PBE</div>
+            </div>
+            <div class="container_l">
+                <img data-src="images/team/trudy.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Trudy Painter</div>
+                <div class="person_text">Study Break Chair</div>
+                <div class="person_text">Alpha Phi</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/team/mulan.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Mulan Jiang</div>
+                <div class="person_text">Ring Premiere Co-Chair</div>
+                <div class="person_text">Next House</div>
+            </div>
+            <div class="container_l">
+                <img data-src="images/team/katherine.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Katherine Guo</div>
+                <div class="person_text">Ring Premiere Co-Chair</div>
+                <div class="person_text">Alpha Phi</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/team/brady.jpeg" class="person_photo lazy" />
+                <div class="person_text person_name">Brady Sullivan</div>
+                <div class="person_text">Ring Delivery Co-Chair</div>
+                <div class="person_text">PBE</div>
+            </div>
+            <div class="container_l">
+                <img data-src="images/team/tejal.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Tejal Reddy</div>
+                <div class="person_text">Ring Delivery Co-Chair</div>
+                <div class="person_text">Theta</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/team/chad.png" class="person_photo lazy" />
+                <div class="person_text person_name">Chad Meier</div>
+                <div class="person_text">Artist & Ring Delivery Vice Chair</div>
+                <div class="person_text">East Campus</div>
+            </div>
+            <div class="container_l">
+                <img data-src="images/team/andrew.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Andrew Stoddard</div>
+                <div class="person_text">Web Chair</div>
+                <div class="person_text">Kappa Sigma</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/team/izzi.jpeg" class="person_photo lazy" />
+                <div class="person_text person_name">Izzi Waitz</div>
+                <div class="person_text">Artist & Publicity Co-Chair</div>
+                <div class="person_text">Sigma Kappa</div>
+            </div>
+            <div class="container_l">
+                <img data-src="images/team/margaret.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Margaret Zheng</div>
+                <div class="person_text">Artist & Publicity Co-Chair</div>
+                <div class="person_text">McCormick</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/team/rachana.jpg" class="person_photo lazy" />
+                <div class="person_text person_name">Rachana Madhukara</div>
+                <div class="person_text">Artist & Treasurer</div>
+                <div class="person_text">New House</div>
+            </div>
+        </div>
+        <div class="section white" id="events_section">
+            <div class="container_title">Events</div>
+            <div class="container white" style="padding-bottom: 50%;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/SNo3l_74uf0"
+                    title="2023 Ring Premiere" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="container_l white">
+                <img data-src="images/premiere.jpeg" class="poster_image lazy" style="cursor: pointer;"
+                    onclick="location.href='https://www.youtube.com/channel/UCq6t26YiPioXx1MmBG_TYpQ'" />
+            </div>
+            <div class="container_r white">
+                <img data-src="images/delivery.png" class="poster_image lazy" />
+            </div>
+        </div>
+        <div class="section" id="pricing_section">
+            <div class="container_title">Pricing</div>
+            <div class="container_l">
+                <img data-src="images/ring_prices/ultrium.png" class="ring_photo lazy" />
+                <div class="ring_text ring_name">Ultrium</div>
+                <div class="ring_text">$150 [All Sizes]</div>
+                <div class="ring_text">$75 [Companion Ring]</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/ring_prices/ultrium_pvd.png" class="ring_photo lazy" />
+                <div class="ring_text ring_name">Ultrium PVD</div>
+                <div class="ring_text">$280 [All Sizes]</div>
+                <div class="ring_text">$205 [Companion Ring]</div>
+            </div>
+            <div class="container_l">
+                <img data-src="images/ring_prices/silver.png" class="ring_photo lazy" />
+                <div class="ring_text ring_name">Extreme Silver</div>
+                <div class="ring_text">$260 [XS], $295 [S]</div>
+                <div class="ring_text">$335 [M], $380 [L]</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/ring_prices/10k_gold.png" class="ring_photo lazy" />
+                <div class="ring_text ring_name">10k Yellow Gold</div>
+                <div class="ring_text">$569 [XS], $642 [S]</div>
+                <div class="ring_text">$886 [M], $1,018 [L]</div>
+            </div>
+            <div class="container_l">
+                <img data-src="images/ring_prices/14k_gold.png" class="ring_photo lazy" />
+                <div class="ring_text ring_name">14k Yellow Gold</div>
+                <div class="ring_text">$715 [XS], $827 [S]</div>
+                <div class="ring_text">$1,194 [M], $1,376 [L]</div>
+            </div>
+            <div class="container_r">
+                <img data-src="images/ring_prices/18k_gold.png" class="ring_photo lazy" />
+                <div class="ring_text ring_name">18k Yellow Gold</div>
+                <div class="ring_text">$988 [XS], $1,178 [S]</div>
+                <div class="ring_text">$1,695 [M], $2,020 [L]</div>
+            </div>
+            <div class="container">
+                White Gold is available in 10k, 14k, and 18k options and costs an additional $20 from the Yellow Gold
+                price above.
+                Rose Gold is available in 10k and 14k options and costs an additional $50 from the Yellow Gold price
+                above.
+                Ultrium PVD finish options include Stealth, Brass, and Prism. Ultrium and Ultrium PVD are available for
+                $75 or $205 respectively
+                with the purchase of a gold companion ring (see FAQ).
+            </div>
+        </div>
+        <div class="section narrow white" id="faq_section">
+            <div class="container_title narrow_title">FAQ</div>
+            <div class="container">
+                <div class="faq_question">How many people usually buy the Brass Rat? How many people get the gold one?
+                </div>
+                <div class="faq_more">+</div>
+                <div class="faq_answer">
+                    Usually, around 92-98% of of class buys a Brass Rat. Approximately 65-70% of a class buys a gold
+                    ring.
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq_question">What is a companion ring?</div>
+                <div class="faq_more">+</div>
+                <div class="faq_answer">
+                    If you buy a gold ring, you have the option to buy an Ultrium ring for $75 (as supposed to $150).
+                    You
+                    may instead buy an Ultrium PVD ring for $205 (as supposed to $280). The idea behind the companion
+                    ring is that the Ultrium
+                    ring is worn as an "everyday" ring while the gold one is worn for special occasions.
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq_question">When can we get our rings?</div>
+                <div class="faq_more">+</div>
+                <div class="faq_answer">
+                    Everyone will be receiving their rings together in October 2021 at Ring Delivery, COVID permitting.
+                    If Ring Delivery is not possible, we have an alternate plan in place to ship rings to everyone.
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq_question">When will delivery be?</div>
+                <div class="faq_more">+</div>
+                <div class="faq_answer">
+                    Ring Delivery will be in October 2021, COVID permitting. We hope that this can be an in person event
+                    where we can all get back together as a class and experience recieving all of our rings together.
+                </div>
+            </div>
+            <div class="container">
+                <div class="faq_question">Who can I contact for more information?</div>
+                <div class="faq_more">+</div>
+                <div class="faq_answer">
+                    If you would like more information, you can email us at <a
+                        href="mailto:brassrat-2023@mit.edu">brassrat-2023@mit.edu</a>, or contact our
+                    Herff Jones representative, Jeff Quirk, at <a
+                        href="mailto:jpquirk@herffjones.com">jpquirk@herffjones.com</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer_item">
+            <div class="footer_text">RingComm 2023</div>
+        </div>
+        <div class="footer_item_right"
+            onclick="location.href='https://www.youtube.com/channel/UCq6t26YiPioXx1MmBG_TYpQ'">
+            <img src="images/youtube.png" class="footer_icon">
+        </div>
+        <div class="footer_item_right" onclick="location.href='https://www.facebook.com/BrassRat2023/'">
+            <img src="images/facebook.png" class="footer_icon">
+        </div>
+        <div class="footer_item_right" onclick="location.href='https://www.instagram.com/brass_rat_2023/'">
+            <img src="images/instagram.png" class="footer_icon">
+        </div>
+        <div class="footer_item_right">
+            <div class="footer_link" onclick="location.href='https://accessibility.mit.edu'">Accessibility</div>
+        </div>
+    </div>
+</body>
+
+</html>

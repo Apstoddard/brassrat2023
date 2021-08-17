@@ -1,0 +1,201 @@
+#announcement_banner {
+  position: absolute;
+  top: 128px;
+  left: 0px;
+  width: 100%;
+  height: 64px;
+  background-color: var(--gold);
+  z-index: 2;
+  text-align: center;
+  line-height: 64px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#main_image {
+  grid-column: 1 / span 3;
+  position: relative;
+  height: calc(100vh - 128px);
+  width: 100%;
+  background-image: url("../../images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+#main_video {
+  grid-column: 1 / span 3;
+  width: 100%;
+}
+
+/* Team */
+.person_photo {
+  height: 192px;
+  width: 192px;
+  border-radius: 50%;
+  float: left;
+  background-color: var(--white);
+}
+
+.person_text {
+  width: calc(100% - 240px);
+  margin-left: 48px;
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+}
+
+.person_name {
+  margin-top: 48px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Pricing */
+.ring_photo {
+  height: 192px;
+  width: 192px;
+  float: left;
+}
+
+.ring_text {
+  width: calc(100% - 240px);
+  margin-left: 48px;
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+}
+
+.ring_name {
+  margin-top: 48px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Events */
+.poster_image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* FAQ */
+.faq_question {
+  height: fit-content;
+  line-height: 24px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 48px;
+  padding-right: 96px;
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  background-color: var(--light);
+  cursor: pointer;
+}
+
+.faq_more {
+  position: absolute;
+  right: 48px;
+  top: 0;
+  height: 64px;
+  line-height: 64px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 22px;
+  background-color: var(--light);
+  width: auto;
+  cursor: pointer;
+}
+
+.faq_answer {
+  display: none;
+  line-height: 24px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 48px;
+  padding-right: 48px;
+  float: left;
+  width: 100%;
+  border-left: 4px solid var(--light);
+  border-right: 4px solid var(--light);
+  border-bottom: 4px solid var(--light);
+}
+
+@media all and (max-width: 1250px) {
+  .person_photo {
+    height: 128px;
+    width: 128px;
+  }
+  .person_text {
+    width: calc(100% - 176px);
+  }
+  .person_name {
+    margin-top: 16px;
+  }
+
+  .ring_photo {
+    height: 128px;
+    width: 128px;
+  }
+
+  .ring_text {
+    width: calc(100% - 176px);
+  }
+
+  .ring_name {
+    margin-top: 16px;
+  }
+}
+@media all and (max-width: 1130px) {
+  #main_image {
+    background-image: url("../../images/background.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .person_photo {
+    height: 96px;
+    width: 96px;
+  }
+  .person_text {
+    width: calc(100% - 120px);
+    margin-left: 24px;
+    font-size: 12px;
+  }
+  .person_name {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+
+  .ring_photo {
+    height: 96px;
+    width: 96px;
+  }
+
+  .ring_text {
+    width: calc(100% - 120px);
+    margin-left: 24px;
+    font-size: 12px;
+  }
+
+  .ring_name {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+}
